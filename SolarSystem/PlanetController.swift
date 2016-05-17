@@ -11,6 +11,7 @@ import Foundation
 class PlanetController {
     
     static var planets: [Planet] {
+        
         let mercury = Planet(name: "Mercury", diameter: 4879, dayLength: 4222.6, millionKMsFromSun: 57.9)
         
         let venus = Planet(name: "Venus", diameter: 12104, dayLength: 2802, millionKMsFromSun: 108.2)
